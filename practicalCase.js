@@ -36,3 +36,26 @@ function multiply3Numbers(a) {
   multiply3Numbers(2);// global 
   multiply3Numbers(2)(3);
   multiply3Numbers(3)(4)(5)
+
+
+function Date(day, month, year) {
+    return {
+      toString() {
+        return `${day} ${month} ${year}`
+      }
+    }
+  }
+  const car = new Date(12,04,2021)
+  console.log(car.toString())
+
+const days = function(dd,mm ,yy){
+    return {
+        toString(){
+            return `${dd} ${mm} ${yy}`
+        }
+    }
+}
+const cars = days(11,23,456);
+console.log(cars.toString());
+console.log(days(34,33,122))
+  
