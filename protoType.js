@@ -1,5 +1,5 @@
 // prototype can be used to add method to existing constructor.
-
+const name ="helolkoi"
 
 //construction function
 function Person(){
